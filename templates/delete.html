@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Delete Record</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='c.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <img class="logo" src="{{url_for('static',filename = 'coditas_logo.png')}}" />
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a class="active" href="#home">Home</a>
+    </nav>
+    <header><h3>Remove Employee from the list</h3></header>
+    <main>
+        <div>
+            <form action="/deleterecord" method="post">
+                Employee Id <input type="text" name="id" />
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>

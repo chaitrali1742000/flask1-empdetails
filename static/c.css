@@ -1,0 +1,139 @@
+﻿html{
+    height: 100%
+}
+header {
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    text-align: center;
+    width: 100%;
+  
+    
+    text-align: center;
+    padding: 3px 5px;
+    text-decoration: none;
+    font-size: 17px;
+}
+body{
+   background-color:grey;
+  
+}
+
+#image {
+    height: 100%;
+    background-image: url(coditass.gif)
+    
+}
+/*.advide a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.advide a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+
+.navbar {
+    width: 100%; /* i'm assuming full width */
+    height: 70px; /* change it to desired width */
+    background-color: black; /* change to desired color */
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 120px;
+    height: 50px;
+    margin-left: 7px;
+    margin-right: 20px;
+    margin-top: 10px; /* if you want it vertically middle of the navbar. */
+}
+
+.navbar > a {
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 70px; /* if you want it to take the full height of the bar */
+    line-height: 70px; /* if you want it vertically middle of the navbar */
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1px 4px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+ .navbar a.active {
+
+    color: white;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/*a>section {
+    display: none;
+}
+
+a:hover > section {
+    display: block;
+    padding: 0px 0px;
+}*/
+
+main {
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+}
+
+main section {
+        margin: 0.5rem;
+        flex: 1;
+        padding: 0.5rem;
+        text-align: center;
+}
+
+section div {
+    background-color: black;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+section div a {
+    color: white;
+}
+
+
+
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: dimgrey;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
